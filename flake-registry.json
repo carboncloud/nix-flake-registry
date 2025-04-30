@@ -2,24 +2,25 @@
   "flakes": [
     {
       "from": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      },
-      "to": {
-        "owner": "NixOs",
-        "ref": "release-24.11",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "flake-utils",
         "type": "indirect"
       },
       "to": {
         "owner": "numtide",
         "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1745998881,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "423d2df5b04b4ee7688c3d71396e872afa236a89",
         "type": "github"
       }
     }
