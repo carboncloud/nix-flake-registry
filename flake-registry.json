@@ -2,19 +2,6 @@
   "flakes": [
     {
       "from": {
-        "id": "nixpkgs",
-        "type": "indirect"
-      },
-      "to": {
-        "lastModified": 1745998881,
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "423d2df5b04b4ee7688c3d71396e872afa236a89",
-        "type": "github"
-      }
-    },
-    {
-      "from": {
         "id": "flake-utils",
         "type": "indirect"
       },
@@ -23,6 +10,19 @@
         "owner": "numtide",
         "repo": "flake-utils",
         "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      }
+    },
+    {
+      "from": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      },
+      "to": {
+        "lastModified": 1748852332,
+        "owner": "NixOs",
+        "repo": "nixpkgs",
+        "rev": "a8167f3cc2f991dd4d0055746df53dae5fd0c953",
         "type": "github"
       }
     }
